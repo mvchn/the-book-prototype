@@ -1,0 +1,14 @@
+###
+GET https://localhost:8000/
+
+###
+GET https://localhost:8000/about
+
+###
+GET https://localhost:8000/credits
+
+###
+POST https://localhost:8000/order
+Content-Type: application/x-www-form-urlencoded
+
+name=test&email=test@test.com&phone=
